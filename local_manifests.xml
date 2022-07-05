@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+     <remote name="aleksiby"
+            fetch="https://github.com/aleksiby"/>
+     <remote name="arrow-devices"
+            fetch="https://github.com/ArrowOS-Devices" />
+     <remote name="arrow"
+            fetch="https://github.com/ArrowOS" />
+     <remote name="sairam"
+            fetch="https://github.com/sairam1411" />
+     <remote name="proton" 
+           fetch="https://github.com/kdrag0n" />
+     <remote  name="sonal"
+           fetch="https://github.com/SonalSingh18" />
+
+  <!-- Device Trees -->
+        <project name="device_xiaomi_joyeuse" path="device/xiaomi/joyeuse" remote="aleksiby" revision="blaze" />
+        <project name="device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="aleksiby" revision="twelve" />
+
+  <!-- Vendor Trees -->
+        <project name="vendor_xiaomi_joyeuse" path="vendor/xiaomi/joyeuse" remote="aleksiby" revision="twelve" />
+        <project name="vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" remote="aleksiby" revision="twelve" /> 
+        
+  <!-- Kernel Trees -->
+        <project name="kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="sairam" revision="twelve-kcal" />
+
+  <!-- Clang & MiuiCamera --> 
+        <project name="vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="sonal" revision="12" />
+        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proton" revision="master" />  
+
+</manifest> 
+
