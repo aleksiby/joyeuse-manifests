@@ -3,10 +3,10 @@
           
      <remote name="aleksiby"
             fetch="https://github.com/aleksiby"/>
-     <remote name="arrow-devices"
-            fetch="https://github.com/ArrowOS-Devices" />
-     <remote name="arrow"
-            fetch="https://github.com/ArrowOS" />
+
+
+
+
      <remote name="sairam"
             fetch="https://github.com/sairam1411" />
      <remote name="proton" 
